@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Mulish:ital,wght@0,400;0,700;1,300&family=PT+Serif:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+}
+
+header{
+    padding: 25px;
+}
+
+.header-wrapper{
+    width: %;
+    margin: :left
+}
+
+.header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+head img{
+    width: 160px;
+}
+
+header nav a{
+    margin-left: 40px;
+    color: #1f1534;
+    opacity: 0.5;
+    text-decoration: 0;
+}
+
+header nav a:first-child{
+    margin-left: 0;
+}
+
+.active-link{
+    color: black;
+    opacity: 1;
+    font-weight: 700;
+
+}
+
+.welcome-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    padding-right: 20px;
+}
+
+.inner{
+    padding: 75px 0;
+}
+
+.welcome-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#welcome img{
+   width: 480px; 
+}
+
+#welcome h1{
+    font-size: 2.5rem;
+}
+
+p{
+    color: #707987;
+}
+
+.welcome-details{
+    width: 450px;
+}
+
+.welcome-btn{
+   color: #fff; 
+   background-color: black;
+   border: none;
+   padding: 15px 25px;
+   border-radius: 25px;
+}
+
+#services{
+    margin-top: 100px ;
+    background: url(../project/images/services-bg.png);
+    background-size: cover;
+}
+
+.services-wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+   
+.services-text{
+    text-align:center ;
+}
+
+
+
+.services-text tr{
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    margin: 35px auto;
+}
+
+.services-cards{
+    margin-top: 100px;
+}
+
+.cards-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    box-shadow: 0 0 15px 0 #999 ;
+    background-color: white;
+    width: 238px;
+    padding: 25px;
+}
+
+.card p{
+    line-height: 1.5;
+}
+
+.card img{
+    width: 68px;
+    margin-bottom: 10px;
+}
+
